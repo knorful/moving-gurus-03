@@ -30,18 +30,14 @@
   background-color: rgb(165, 165, 165);
   color: white;
   padding: 10px 30px;
-  font-size: 0.8rem;
-}
-
-#contact-num i {
-  color: #cc5500;
+  text-align: center;
 }
 
 /* Nav */
 
 #nav-links {
   display: flex;
-  color: #cc5500;
+  color: #f76904;
 }
 
 #nav-links li {
@@ -93,12 +89,13 @@ label {
 }
 
 #move-btn {
-  background-color: #cc5500;
+  background-color: #f76904;
   border-radius: 5px;
   color: white;
   width: 200px;
   padding: 15px;
   margin-top: 10px;
+  border: none;
 }
 
 #move-btn:hover {
@@ -109,9 +106,9 @@ label {
 /* Mission */
 
 #mission {
+  text-align: center;
+  margin-top: 40px;
 }
 
 #mission h1 {
-  background-color: rgba(173, 173, 173, 0.87);
-  padding: 15px;
 }
