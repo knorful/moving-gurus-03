@@ -10,9 +10,25 @@
 header {
   height: 69px;
   background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #logo {
   height: 90%;
   padding-bottom: 10px;
+}
+
+/* Nav */
+
+#nav-links {
+  display: flex;
+  color: #cc5500;
+  font-size: 1.2rem;
+}
+
+#nav-links li {
+  list-style: none;
+  margin: 20px;
 }
