@@ -6,6 +6,12 @@
   font-family: Helvetica, sans-serif;
 }
 
+.container {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+}
+
 /* Header */
 #top-nav {
   display: flex;
@@ -21,7 +27,7 @@
 }
 
 #contact-num {
-  background-color: rgb(187, 186, 186);
+  background-color: rgb(133, 132, 132);
   color: white;
   padding: 10px 30px;
   font-size: 0.8rem;
@@ -32,7 +38,6 @@
 #nav-links {
   display: flex;
   color: #cc5500;
-  font-size: 1.2rem;
 }
 
 #nav-links li {
@@ -40,17 +45,58 @@
   margin: 20px;
 }
 
-/* Mission */
+/* Splash */
 
-#mission {
+#splash {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: space-around;
+  align-items: center;
   height: 700px;
   background-image: url("./imgs/Moving\ Van\ With\ Furniture.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+#splash-msg {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #b4b4b4ab;
+}
+
+/* Moving Form */
+
+#moving-form {
+  background-color: rgb(231, 231, 231);
+  padding: 20px;
+}
+
+input,
+select {
+  width: 320px;
+  height: 30px;
+}
+
+#move-btn {
+  background-color: #cc5500;
+  border-radius: 5px;
+  color: white;
+  width: 200px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+#move-btn:hover {
+  background-color: #9c4201;
+  cursor: pointer;
+}
+
+::placeholder {
+  padding-left: 10px;
+}
+
+/* Mission */
+
+#mission {
 }
 
 #mission h1 {
