@@ -3,21 +3,28 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Helvetica, sans-serif;
 }
 
 /* Header */
-
-header {
-  height: 69px;
-  background-color: #1a1a1a;
+#top-nav {
   display: flex;
-  justify-content: space-between;
+  background-color: #1a1a1a;
+  justify-content: space-around;
   align-items: center;
+  height: 69px;
 }
 
 #logo {
   height: 90%;
   padding-bottom: 10px;
+}
+
+#contact-num {
+  background-color: gray;
+  color: white;
+  padding: 10px 30px;
+  font-size: 0.8rem;
 }
 
 /* Nav */
@@ -31,4 +38,22 @@ header {
 #nav-links li {
   list-style: none;
   margin: 20px;
+}
+
+/* Mission */
+
+#mission {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 700px;
+  background-image: url("./imgs/Moving\ Van\ With\ Furniture.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#mission h1 {
+  background-color: rgba(173, 173, 173, 0.87);
+  padding: 15px;
 }
