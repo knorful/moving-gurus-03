@@ -8,7 +8,7 @@
 
 .container {
   display: flex;
-  width: 1000px;
+  width: 1200px;
   justify-content: space-around;
 }
 
@@ -106,9 +106,31 @@ label {
 /* Mission */
 
 #mission {
-  text-align: center;
-  margin-top: 40px;
+  margin: 40px auto;
 }
 
 #mission h1 {
+  font-size: 2rem;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+#mission p {
+  line-height: 1.5rem;
+}
+
+/* Gallery */
+
+#gallery {
+  margin-left: 100px;
+}
+
+#pics {
+  display: flex;
+}
+
+.pic {
+  width: auto;
+  height: 200px;
+  margin-right: 10px;
 }
