@@ -29,11 +29,73 @@
     </header>
 
     <main>
+      <section id="splash">
+        <section class="container">
+          <section id="splash-msg">
+            <h1>You Need Movers</h1>
+            <h1>We're here to Help!</h1>
+          </section>
+
+          <form id="moving-form">
+            <!-- moving from -->
+            <label for="moving-from">Moving from</label>
+            <br />
+            <input
+              id="moving-from"
+              type="text"
+              placeholder="Zip"
+              name="moving-from"
+            />
+            <br />
+            <br />
+
+            <!-- moving to -->
+            <label for="moving-to">Moving to</label>
+            <br />
+            <input
+              type="text"
+              id="moving-to"
+              placeholder="Zip or City, State"
+              name="moving-to"
+            />
+            <br />
+            <br />
+
+            <!-- moving size -->
+            <label for="moving-size">Moving size</label>
+            <br />
+            <select name="moving-size" id="moving-size">
+              <option value="studio">Studio</option>
+              <option value="1Bed">1 Bedroom</option>
+              <option value="2Bed">2 Bedroom</option>
+              <option value="2-3Bed">2-3 Bedroom</option>
+              <option value="3Bed">3 Bedroom</option>
+              <option value="4Bed">4 Bedroom</option>
+              <option value="5Bed">5 Bedroom</option>
+            </select>
+            <br />
+            <br />
+
+            <!-- moving date -->
+            <label for="moving-date">Moving date</label>
+            <br />
+            <input id="moving-date" type="date" name="moving-date" />
+            <br />
+            <br />
+
+            <button id="move-btn">Get Moving!</button>
+          </form>
+        </section>
+      </section>
       <section id="mission">
         <h1>
           Our mission is to create a stress-free moving environment by providing
           affordability, reliability, and efficiency!
         </h1>
+      </section>
+
+      <section id="gallery">
+        <h2></h2>
       </section>
     </main>
   </body>
