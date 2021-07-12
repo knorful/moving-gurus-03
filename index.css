@@ -45,6 +45,11 @@
   margin: 20px;
 }
 
+#nav-links a {
+  text-decoration: none;
+  color: #f76904;
+}
+
 /* Splash */
 
 #splash {
@@ -115,7 +120,7 @@ label {
   margin-bottom: 15px;
 }
 
-#mission p {
+p {
   line-height: 1.5rem;
 }
 
@@ -133,4 +138,52 @@ label {
   width: auto;
   height: 200px;
   margin-right: 10px;
+}
+
+/* Services */
+
+#services {
+  display: inline-flex;
+  justify-content: space-around;
+  padding: 100px 0;
+  background: rgb(204, 85, 0);
+  width: 100%;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service p {
+  width: 200px;
+}
+
+.service i {
+  color: white;
+  font-size: 6rem;
+  margin-bottom: 25px;
+}
+
+.service h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+footer h4 {
+  color: rgb(196, 194, 194);
+  margin-bottom: 10px;
+}
+
+footer section {
+  margin: 0 auto;
+  padding: 40px 0;
 }
