@@ -1,0 +1,18 @@
+/* General Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  height: 69px;
+  background-color: #1a1a1a;
+}
+
+#logo {
+  height: 90%;
+  padding-bottom: 10px;
+}
